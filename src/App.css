@@ -1,12 +1,36 @@
 nav {
   color: white;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-bottom: 100px;
 }
 
+body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.nav-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://www.spscommerce.com/wp-content/uploads/2019/12/EDI-856-Advance-Ship-Notice-SPS-Image.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h1 {
+  font-size: 2.4rem;
+}
 button {
   cursor: pointer;
 }
 
-nav > div {
+.iconFulfillmentWrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .first-nav {
@@ -15,10 +39,6 @@ nav > div {
   align-items: center;
 }
 
-.nav-wrapper {
-  background-color: rgb(33, 33, 33);
-  padding: 20px;
-}
 #spsIcon {
   height: 50px;
   cursor: pointer;
@@ -45,11 +65,30 @@ nav > div {
   gap: 20px;
 }
 
+.second-nav-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.second-nav-button-wrapper > #whyChooseSpsBtn,
+  #referredToSpsBtn {
+    font-size: 1.2rem;
+  }
+
 main {
   background-color: white;
   padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+h2 {
+  font-size: 1.8rem;
+}
 .icon-and-text-wrapper {
   display: flex;
   flex-direction: column;
@@ -59,16 +98,73 @@ main {
 
 #iconFulfillment {
   width: 100px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 20px;
 }
 
 .find-an-edi-solution-text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: left;
 }
 
 a {
-  color: rgb(15,161,221);
+  color: rgb(15, 161, 221);
   cursor: pointer;
+}
+
+.top-main {
+  text-align: center;
+}
+
+.nav-button-div {
+  display: none;
+}
+
+.nav-button-div > div {
+  opacity: 0.9;
+}
+
+#contactBtn {
+  background-color: rgb(15, 161, 221);
+  opacity: 0.9;
+  padding: 10px 40px;
+  border: none;
+  color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+  .right-nav-btns {
+    display: flex;
+    gap: 40px;
+  }
+
+
+  /* #iconFulfillment {
+    margin-bottom: 0px;
+  } */
+  .nav-button-div {
+    display: flex;
+    gap: 40px;
+    color: lightgray;
+    align-items: center;
+  }
+
+  .icon-and-text-wrapper {
+    flex-direction: row;
+    gap: 120px;
+  }
+
+  .second-nav-button-wrapper {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .second-nav-button-wrapper > #whyChooseSpsBtn,
+  #referredToSpsBtn {
+    padding: 20px 40px;
+  }
+
+  #giHamburgerMenu {
+    display: none;
+  }
 }
