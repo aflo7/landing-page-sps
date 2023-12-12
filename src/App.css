@@ -42,6 +42,7 @@ button {
 #spsIcon {
   height: 50px;
   cursor: pointer;
+  opacity: 0.9;
 }
 
 #whyChooseSpsBtn {
@@ -139,9 +140,6 @@ a {
   }
 
 
-  /* #iconFulfillment {
-    margin-bottom: 0px;
-  } */
   .nav-button-div {
     display: flex;
     gap: 40px;
