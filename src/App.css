@@ -1,0 +1,74 @@
+nav {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav > div {
+}
+
+.first-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-wrapper {
+  background-color: rgb(33, 33, 33);
+  padding: 20px;
+}
+#spsIcon {
+  height: 50px;
+  cursor: pointer;
+}
+
+#whyChooseSpsBtn {
+  background-color: rgb(15, 161, 221);
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+#referredToSpsBtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: 2px solid white;
+  padding: 10px;
+}
+
+.second-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main {
+  background-color: white;
+  padding: 20px 60px;
+}
+
+.icon-and-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0px;
+}
+
+#iconFulfillment {
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.find-an-edi-solution-text {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+a {
+  color: rgb(15,161,221);
+  cursor: pointer;
+}
