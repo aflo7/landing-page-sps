@@ -23,7 +23,7 @@ function App() {
             <GiHamburgerMenu size="1.6rem" id="giHamburgerMenu" />
           </div>
           <div className="second-nav">
-            <h1>SPS Commerce Mockup Site</h1>
+            <h1>Lorem ipsum dolor sit amet.</h1>
             <p>
               I made this replica of the SPS website to show off my web dev
               skills, The site is responsive for mobile and desktop devices. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -32,21 +32,17 @@ function App() {
               architecto unde laboriosam earum ratione!
             </p>
             <div className="second-nav-button-wrapper">
-              <button id="whyChooseSpsBtn">Why Choose SPS</button>
-              <button id="referredToSpsBtn">Referred to SPS</button>
+              <button id="whyChooseSpsBtn">Lorem, ipsum dolor.</button>
+              <button id="referredToSpsBtn">Lorem, ipsum dolor.</button>
             </div>
           </div>
         </nav>
       </div>
       <main>
         <div className="top-main">
-          <h2>SPS Commerce Solutions to Solve Your Supply Chain Challenges</h2>
+          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos.</h2>
           <div>
-            Our retail solutions automate the exchange of data about products,
-            inventory, orders, shipments, payments and sales. More than 115,000
-            companies around the globe rely on SPS to make their trading partner
-            relationships more collaborative and profitable. View our products
-            at a glance below:
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum debitis, sapiente hic obcaecati eligendi natus iure quidem molestiae provident corporis dolor adipisci eius tempora quasi minima cupiditate, repellat illum vitae delectus quaerat. Deserunt, libero iusto. Repellat, modi! Excepturi autem neque assumenda placeat hic aut quaerat modi ducimus nam ab!
           </div>
         </div>
         <div className="icons-and-text-wrapper">
@@ -59,14 +55,12 @@ function App() {
             </div>
             <div>
               <div className="find-an-edi-solution-text">
-                Find an EDI Solution
+                Lorem ipsum dolor sit amet.
               </div>
               <p>
-                Solve your order fulfillment problems, gain EDI capability,
-                attain EDI compliance, connect systems and onboard trading
-                partners with SPS Fulfillment EDI.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam repellat a, autem exercitationem voluptatem animi hic nostrum facere atque asperiores, porro delectus eius similique
               </p>
-              <a>Learn More</a>
+              <a>Lorem, ipsum.</a>
             </div>
           </div>
           <div className="icon-and-text-wrapper">
@@ -78,14 +72,12 @@ function App() {
             </div>
             <div>
               <div className="find-an-edi-solution-text">
-                Find an EDI Solution
+                Lorem ipsum dolor sit.
               </div>
               <p>
-                Solve your order fulfillment problems, gain EDI capability,
-                attain EDI compliance, connect systems and onboard trading
-                partners with SPS Fulfillment EDI.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, porro laborum! Velit accusamus delectus officia ipsum qui rerum eum at.
               </p>
-              <a>Learn More</a>
+              <a>Lorem ipsum dolor sit.</a>
             </div>
           </div>
 
@@ -98,14 +90,12 @@ function App() {
             </div>
             <div>
               <div className="find-an-edi-solution-text">
-                Find an EDI Solution
+                Lorem ipsum dolor sit.
               </div>
               <p>
-                Solve your order fulfillment problems, gain EDI capability,
-                attain EDI compliance, connect systems and onboard trading
-                partners with SPS Fulfillment EDI.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem dolorum molestiae provident unde nihil tempore laudantium, iste illo dolores?
               </p>
-              <a>Learn More</a>
+              <a>Lorem, ipsum.</a>
             </div>
           </div>
         </div>
